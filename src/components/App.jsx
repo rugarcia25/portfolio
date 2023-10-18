@@ -4,7 +4,11 @@ import imageBg from "../assets/bg.jpg";
 const App = () => {
   return (
     <div className=" w-full h-screen">
-      <img src={imageBg} className="top-0 left-0 w-full h-screen" alt=""></img>
+      <img
+        src={imageBg}
+        className="top-0 object-cover left-0 w-full h-screen"
+        alt=""
+      ></img>
       <div className="top-14 absolute flex flex-col items-center justify-center h-full w-full">
         <div className="text-white flex items-center justify-center ">
           <div>

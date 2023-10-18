@@ -4,8 +4,8 @@ import { Link } from "react-scroll";
 
 const Header = () => {
   return (
-    <div id="home" className="z-[10] top-0 bg-gray-800 text-gray-300 p-3">
-      <header>
+    <div id="home">
+      <header className="z-[10] top-0 bg-gray-800 text-gray-300 p-3">
         <ul className="flex items-center gap-10 justify-center">
           <li className="flex items-center cursor-pointer hover:underline gap-2">
             <svg

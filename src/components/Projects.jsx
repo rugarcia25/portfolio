@@ -45,7 +45,6 @@ const Projects = () => {
           <p className="pt-2 text-white text-center">
             <a
               target="_blank"
-              href="https://github.com/rugarcia25/TFG-GoodBoy"
               rel="noreferrer"
               className="hover:cursor-pointer hover:underline text-red-500"
             >
@@ -68,7 +67,6 @@ const Projects = () => {
           <p className="pt-2 text-white text-center">
             <a
               target="_blank"
-              href="https://github.com/rugarcia25/TFG-GoodBoy"
               rel="noreferrer"
               className="hover:cursor-pointer hover:underline text-red-500"
             >
