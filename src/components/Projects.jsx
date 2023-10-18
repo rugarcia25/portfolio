@@ -32,7 +32,7 @@ const Projects = () => {
         </div>
         <div className="col-span-1 bg-[#1F2937] rounded-md px-6 py-8">
           <img
-            className="w-[72%] m-auto rounded-lg hover:cursor-pointer opacity-50 transition duration-300 ease-in-out hover:opacity-100"
+            className="w-[72%] h-auto m-auto rounded-lg hover:cursor-pointer opacity-50 transition duration-300 ease-in-out hover:opacity-100"
             src={imageJapan}
             alt="Aplicación web para restaurante japonés"
           ></img>
@@ -42,36 +42,18 @@ const Projects = () => {
           <p className="pt-3 text-white text-center">
             Aplicación Web Restaurante
           </p>
-          <p className="pt-2 text-white text-center">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              className="hover:cursor-pointer hover:underline text-red-500"
-            >
-              Github
-            </a>
-          </p>
         </div>
         <div className="col-span-1 bg-[#1F2937] rounded-md px-6 py-8">
           <img
             className="w-[72%] m-auto rounded-lg hover:cursor-pointer opacity-50 transition duration-300 ease-in-out hover:opacity-100"
             src={editImage}
-            alt="Good Boy Project"
+            alt="Páginaa web para editar imágenes"
           ></img>
           <h2 className="text-center text-2xl font-semibold text-white mt-6">
             edit Image
           </h2>
           <p className="pt-3 text-white text-center">
             Landing Page - Editor de imágenes
-          </p>
-          <p className="pt-2 text-white text-center">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              className="hover:cursor-pointer hover:underline text-red-500"
-            >
-              Github
-            </a>
           </p>
         </div>
       </div>
