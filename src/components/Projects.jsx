@@ -1,6 +1,6 @@
 import imageGoodBoy from "../assets/goodboy.png";
-import imageJapan from "../assets/japanfood.png";
-import editImage from "../assets/editImage.png";
+import ageCalculator from "../assets/ageCalculator.png";
+import newsletter from "../assets/newsletter.png";
 
 const Projects = () => {
   return (
@@ -33,27 +33,63 @@ const Projects = () => {
         <div className="col-span-1 bg-[#1F2937] rounded-md px-6 py-8">
           <img
             className="w-[72%] h-auto m-auto rounded-lg hover:cursor-pointer opacity-50 transition duration-300 ease-in-out hover:opacity-100"
-            src={imageJapan}
-            alt="Aplicación web para restaurante japonés"
+            src={ageCalculator}
+            alt="Aplicación para calcular la edad en ías, mes y año"
           ></img>
           <h2 className="text-center text-2xl font-semibold text-white mt-6">
-            Japan Food
+            Age Calculator
           </h2>
           <p className="pt-3 text-white text-center">
-            Aplicación Web Restaurante
+            Aplicación para calcular la edad
+          </p>
+          <p className="pt-3 text-white text-center">
+            <a
+              target="_blank"
+              href="https://rugarcia25.github.io/age-calculator-app-main/"
+              rel="noreferrer"
+              className="hover:cursor-pointer hover:underline text-red-500 mr-3"
+            >
+              Live
+            </a>{" "}
+            <a
+              target="_blank"
+              href="https://github.com/rugarcia25/age-calculator-app-main"
+              rel="noreferrer"
+              className="hover:cursor-pointer hover:underline text-red-500"
+            >
+              Github
+            </a>
           </p>
         </div>
         <div className="col-span-1 bg-[#1F2937] rounded-md px-6 py-8">
           <img
-            className="w-[72%] m-auto rounded-lg hover:cursor-pointer opacity-50 transition duration-300 ease-in-out hover:opacity-100"
-            src={editImage}
-            alt="Páginaa web para editar imágenes"
+            className="w-[72%] h-auto m-auto rounded-lg hover:cursor-pointer opacity-50 transition duration-300 ease-in-out hover:opacity-100"
+            src={newsletter}
+            alt="Aplicación para suscribirse a un newsletter"
           ></img>
           <h2 className="text-center text-2xl font-semibold text-white mt-6">
-            edit Image
+            Newsletter
           </h2>
           <p className="pt-3 text-white text-center">
-            Landing Page - Editor de imágenes
+            Aplicación para calcular la edad
+          </p>
+          <p className="pt-3 text-white text-center">
+            <a
+              target="_blank"
+              href="https://rugarcia25.github.io/Newsletter-sign-up-form-with-success-message/"
+              rel="noreferrer"
+              className="hover:cursor-pointer hover:underline text-red-500 mr-3"
+            >
+              Live
+            </a>{" "}
+            <a
+              target="_blank"
+              href="https://github.com/rugarcia25/Newsletter-sign-up-form-with-success-message"
+              rel="noreferrer"
+              className="hover:cursor-pointer hover:underline text-red-500"
+            >
+              Github
+            </a>
           </p>
         </div>
       </div>
