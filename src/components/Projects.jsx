@@ -71,7 +71,7 @@ const Projects = () => {
             Newsletter
           </h2>
           <p className="pt-3 text-white text-center">
-            Aplicación para calcular la edad
+            Aplicación para suscribirse a un newsletter
           </p>
           <p className="pt-3 text-white text-center">
             <a
