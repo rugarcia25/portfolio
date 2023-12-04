@@ -15,7 +15,7 @@ const App = () => {
             <h3 className="text-2xl">FullStack Developer</h3>
             <h2 className="text-5xl pt-2 md:pt-5">Rubén García</h2>
             <p className="pt-2 md:pt-3 text-lg">
-              ¡Hola! 👋 Soy un entusiasta desarrollador, recién graduado en
+              ¡Hola! 👋 Soy un entusiasta desarrollador web, recién graduado en
               Desarrollo de Aplicaciones Web.
             </p>
             <p className="pt-2 md:pt-3 text-lg">
@@ -28,10 +28,10 @@ const App = () => {
               cada día.
             </p>
           </div>
-          <div className="md:w-1/3">
+          <div className="md:w-1/3 flex items-center justify-center md:justify-end">
             <img
               src={image}
-              className="rounded-full h-auto w-80 md:ml-10"
+              className="rounded-full h-auto w-80 md:ml-10 mx-auto"
               alt=""
             />
           </div>
