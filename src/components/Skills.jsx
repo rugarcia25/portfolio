@@ -10,68 +10,36 @@ import imageTailwind from "../assets/tailwind.png";
 const Skills = () => {
   return (
     <section id="skills" className="w-full h-full bg-gray-800 py-10">
-      <h2 className="text-white text-4xl w-full text-center">Tecnologías</h2>
-      <h3 className="text-white w-full text-center"></h3>
-      <div className="grid gap-10 grid-cols-4 grid-rows-2 py-10 w-[50%] m-auto px-4">
-        <div className="col-span-1 bg-gray-700 rounded-md px-6 py-6 hover:scale-105 duration-200">
-          <img className="w-[100px] m-auto" src={imageHtml} alt="HTML 5"></img>
-          <p className="text-center text-white mt-6">HTML 5</p>
-        </div>
-        <div className="col-span-1 bg-gray-700 rounded-md px-6 py-6 hover:scale-105 duration-200">
-          <img className="w-[100px] m-auto" src={imageCss} alt="CSS"></img>
-          <p className="text-center text-white mt-6">CSS</p>
-        </div>
-        <div className="col-span-1 bg-gray-700 rounded-md px-6 py-6 hover:scale-105 duration-200">
-          <img
-            className="w-[100px] m-auto pt-0.5"
-            src={imagePhp}
-            alt="PHP"
-          ></img>
-          <p className="text-center text-white mt-6">PHP</p>
-        </div>
-        <div className="col-span-1 bg-gray-700 rounded-md px-6 py-6 hover:scale-105 duration-200">
-          <img
-            className="w-[100px] m-auto"
-            src={imageLaravel}
-            alt="Laravel"
-          ></img>
-          <p className="text-center text-white mt-6">Laravel</p>
-        </div>
-        <div className="col-span-1 bg-gray-700 rounded-md px-6 py-6 hover:scale-105 duration-200">
-          <img
-            className="w-[100px] m-auto mt-1"
-            src={imageJs}
-            alt="JavaScript"
-          ></img>
-          <p className="text-center text-white mt-6">JavaScript</p>
-        </div>
-        <div className="col-span-1 bg-gray-700 rounded-md px-6 py-6 hover:scale-105 duration-200">
-          <img
-            className="w-[105px] m-auto mt-3"
-            src={imageReact}
-            alt="React Js"
-          ></img>
-          <p className="text-center text-white mt-6">React Js</p>
-        </div>
-        <div className="col-span-1 bg-gray-700 rounded-md px-6 py-6 hover:scale-105 duration-200">
-          <img
-            className="w-[100px] m-auto"
-            src={imageNjode}
-            alt="Node Js"
-          ></img>
-          <p className="text-center text-white mt-4">Node Js</p>
-        </div>
-        <div className="col-span-1 bg-gray-700 rounded-md px-6 py-6 hover:scale-105 duration-200">
-          <img
-            className="w-[150px] m-auto"
-            src={imageTailwind}
-            alt="Tailwind CSS"
-          ></img>
-          <p className="text-center text-white mt-8">Tailwind CSS</p>
-        </div>
+      <h2 className="text-white text-4xl w-full text-center mb-8">
+        Tecnologías
+      </h2>
+      <div className="grid gap-6 md:gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-10 mx-auto max-w-6xl">
+        {skills.map((skill, index) => (
+          <SkillCard key={index} {...skill} />
+        ))}
       </div>
     </section>
   );
 };
+
+const SkillCard = ({ image, alt, name }) => {
+  return (
+    <div className="bg-gray-700 rounded-md px-6 py-6 hover:scale-105 duration-200">
+      <img className="w-[100px] md:w-[150px] m-auto" src={image} alt={alt} />
+      <p className="text-center text-white mt-4">{name}</p>
+    </div>
+  );
+};
+
+const skills = [
+  { name: "HTML 5", image: imageHtml, alt: "HTML 5" },
+  { name: "CSS", image: imageCss, alt: "CSS" },
+  { name: "PHP", image: imagePhp, alt: "PHP" },
+  { name: "Laravel", image: imageLaravel, alt: "Laravel" },
+  { name: "JavaScript", image: imageJs, alt: "JavaScript" },
+  { name: "React Js", image: imageReact, alt: "React Js" },
+  { name: "Node Js", image: imageNjode, alt: "Node Js" },
+  { name: "Tailwind CSS", image: imageTailwind, alt: "Tailwind CSS" },
+];
 
 export default Skills;
