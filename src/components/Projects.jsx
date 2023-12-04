@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import imageGoodBoy from "../assets/goodboy.png";
 import ageCalculator from "../assets/ageCalculator.png";
 import newsletter from "../assets/newsletter.png";

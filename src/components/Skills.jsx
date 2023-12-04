@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import imageHtml from "../assets/html.png";
 import imageCss from "../assets/css.png";
 import imagePhp from "../assets/php.jpg";
