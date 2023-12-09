@@ -18,9 +18,9 @@ const Projects = () => {
 
 const ProjectCard = ({ image, title, description, liveLink, githubLink }) => {
   return (
-    <div className="bg-[#1F2937] rounded-md px-6 py-8">
+    <div className="bg-[#1F2937] rounded-md px-6 py-8 flex flex-col items-center">
       <img
-        className="w-[80%] md:w-[72%] lg:w-[72%] h-auto m-auto rounded-lg cursor-pointer opacity-50 transition duration-300 ease-in-out hover:opacity-100"
+        className="w-full md:max-w-[300px] h-auto m-auto rounded-lg cursor-pointer opacity-50 transition duration-300 ease-in-out hover:opacity-100"
         src={image}
         alt={title}
       />
