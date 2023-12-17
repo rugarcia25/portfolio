@@ -26,7 +26,13 @@ const Skills = () => {
 const SkillCard = ({ image, alt, name }) => {
   return (
     <div className="bg-gray-700 rounded-md px-6 py-6 hover:scale-105 duration-200 flex flex-col items-center">
-      <img className="w-[100px] md:w-[150px] m-auto" src={image} alt={alt} />
+      <img
+        className="w-[100px] md:w-[150px] m-auto"
+        src={image}
+        alt={alt}
+        loading="lazy" // Carga diferida para mejorar el rendimiento
+        decoding="async" // Decodificación asíncrona para mejorar el rendimiento
+      />
       <p className="text-center text-white mt-4">{name}</p>
     </div>
   );
