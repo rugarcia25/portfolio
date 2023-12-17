@@ -1,4 +1,4 @@
-import image from "../assets/me.webp";
+import image from "../images/me.webp";
 import { BiLogoGithub } from "react-icons/bi";
 import { BiLogoLinkedin } from "react-icons/bi";
 

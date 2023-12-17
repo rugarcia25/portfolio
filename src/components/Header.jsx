@@ -1,5 +1,5 @@
 import "../index.css";
-import pdf from "../assets/CV_Ruben.pdf";
+import pdf from "../images/CV_Ruben.pdf";
 import { Link } from "react-scroll";
 
 const Header = () => {

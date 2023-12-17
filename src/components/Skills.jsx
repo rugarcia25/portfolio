@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
-import imageHtml from "../assets/html.webp";
-import imageCss from "../assets/css.webp";
-import imagePhp from "../assets/php.webp";
-import imageJs from "../assets/js.webp";
-import imageLaravel from "../assets/laravel.webp";
-import imageReact from "../assets/react.webp";
-import imageNjode from "../assets/nodejs.webp";
-import imageTailwind from "../assets/tailwind.webp";
+import imageHtml from "../images/html.webp";
+import imageCss from "../images/css.webp";
+import imagePhp from "../images/php.webp";
+import imageJs from "../images/js.webp";
+import imageLaravel from "../images/laravel.webp";
+import imageReact from "../images/react.webp";
+import imageNjode from "../images/nodejs.webp";
+import imageTailwind from "../images/tailwind.webp";
 
 const Skills = () => {
   return (
