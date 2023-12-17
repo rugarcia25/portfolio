@@ -36,6 +36,7 @@ const ProjectCard = ({ image, title, description, liveLink, githubLink }) => {
               target="_blank"
               rel="noreferrer"
               className="hover:underline text-red-500 mr-3"
+              aria-label="Abrir repositorio"
             >
               Live
             </a>{" "}
@@ -47,6 +48,7 @@ const ProjectCard = ({ image, title, description, liveLink, githubLink }) => {
             target="_blank"
             rel="noreferrer"
             className="hover:underline text-red-500"
+            aria-label="Abrir proyecto en Github"
           >
             Github
           </a>
