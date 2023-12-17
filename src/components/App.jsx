@@ -5,7 +5,7 @@ import { BiLogoLinkedin } from "react-icons/bi";
 
 const App = () => {
   return (
-    <div className="relative overflow-hidden w-screen h-screen">
+    <div className="relative overflow-hidden w-full h-screen">
       <img
         src={imageBg}
         className="object-cover w-full h-full relative top-0 left-0"
