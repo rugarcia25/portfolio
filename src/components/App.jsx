@@ -1,16 +1,10 @@
 import image from "../assets/me.webp";
-import imageBg from "../assets/bg.webp";
 import { BiLogoGithub } from "react-icons/bi";
 import { BiLogoLinkedin } from "react-icons/bi";
 
 const App = () => {
   return (
-    <div className="relative overflow-hidden w-full h-screen">
-      <img
-        src={imageBg}
-        className="object-cover w-full h-full relative top-0 left-0"
-        alt=""
-      />
+    <div className="bg-[#303235] relative overflow-hidden w-full h-screen">
       <div className="absolute inset-0 flex items-center justify-center h-full">
         <div className="text-white text-center max-w-2xl mx-auto md:flex md:items-center">
           <div className="md:w-4/6 md:pr-8">
