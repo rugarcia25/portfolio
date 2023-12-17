@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div id="home">
       <header className="z-[10] top-0 bg-gray-800 text-gray-300 p-3">
-        <ul className="flex items-center gap-4 md:gap-10 justify-center flex-wrap">
+        <ul className="flex items-center gap-10 md:gap-10 justify-center flex-wrap">
           <li className="flex items-center cursor-pointer hover:underline gap-2">
             <svg
               className="h-8 w-8 text-red-500"

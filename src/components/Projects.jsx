@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <section id="proyectos" className="w-full h-full bg-[#303235] py-10">
       <h2 className="text-white text-4xl w-full text-center mb-8">Proyectos</h2>
-      <div className="grid gap-10 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 py-10 mx-auto max-w-6xl">
+      <div className="grid gap-10 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 py-5 mx-auto max-w-6xl">
         {projects.map((project, index) => (
           <ProjectCard key={index} {...project} />
         ))}
