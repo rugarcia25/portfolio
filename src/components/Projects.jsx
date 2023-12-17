@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
-import imageGoodBoy from "../assets/goodboy.png";
-import ageCalculator from "../assets/ageCalculator.png";
-import newsletter from "../assets/newsletter.png";
+import imageGoodBoy from "../assets/goodboy.webp";
+import ageCalculator from "../assets/ageCalculator.webp";
+import newsletter from "../assets/newsletter.webp";
 
 const Projects = () => {
   return (
