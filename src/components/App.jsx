@@ -28,6 +28,8 @@ const App = () => {
                 className="hover:scale-125 duration-200"
                 rel="noreferrer"
                 href="https://github.com/rugarcia25"
+                target="_blank"
+                aria-label="Abrir Github"
               >
                 <BiLogoGithub />
               </a>
@@ -35,6 +37,8 @@ const App = () => {
                 className="hover:scale-125 duration-200"
                 rel="noreferrer"
                 href="https://www.linkedin.com/in/garciarios-ruben/"
+                target="_blank"
+                aria-label="Abrir Linkedin"
               >
                 <BiLogoLinkedin />
               </a>
