@@ -46,7 +46,7 @@ const App = () => {
               </a>
             </div>
           </div>
-          <div className="md:w-1/3 flex items-center justify-center md:justify-end py-3">
+          <div className="md:w-1/2 flex items-center justify-center md:justify-end py-3">
             <img
               src={image}
               className="rounded-full h-auto w-50 md:ml-10 mx-auto"
