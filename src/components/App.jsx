@@ -4,7 +4,7 @@ import { BiLogoLinkedin } from "react-icons/bi";
 
 const App = () => {
   return (
-    <div className="bg-[#303235] relative overflow-hidden w-full h-screen">
+    <div className="bg-gradient-to-tl from-[#1F2937] via-black to-[#1F2937] font-mono relative overflow-hidden w-full h-screen">
       <div className="absolute inset-0 flex items-center justify-center h-full">
         <div className="text-white text-center max-w-2xl mx-auto md:flex md:items-center">
           <div className="md:w-4/6 md:pr-8">

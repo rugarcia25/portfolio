@@ -10,7 +10,10 @@ import imageTailwind from "../images/tailwind.webp";
 
 const Skills = () => {
   return (
-    <section id="skills" className="w-full h-full bg-gray-800 py-10">
+    <section
+      id="skills"
+      className="w-full h-full bg-gradient-to-tr from-[#1F2937] via-black to-[#1F2937] py-10"
+    >
       <h2 className="text-white text-4xl w-full text-center mb-8">
         Tecnologías
       </h2>
