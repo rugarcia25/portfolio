@@ -25,7 +25,7 @@ const App = () => {
             </p>
             <div className="text-4xl flex justify-center pt-3 gap-5 md:flex md:items-center red-500">
               <a
-                className="hover:scale-125 duration-200"
+                className="hover:scale-125 duration-200 hover:bg-blue-600 hover:rounded-xl"
                 rel="noreferrer"
                 href="https://github.com/rugarcia25"
                 target="_blank"
@@ -34,7 +34,7 @@ const App = () => {
                 <BiLogoGithub />
               </a>
               <a
-                className="hover:scale-125 duration-200"
+                className="hover:scale-125 duration-200 hover:bg-blue-600 hover:rounded-xl"
                 rel="noreferrer"
                 href="https://www.linkedin.com/in/garciarios-ruben/"
                 target="_blank"

@@ -25,7 +25,14 @@ const Contact = () => {
         />
       </div>
       <div className="flex items-center justify-center mt-8">
-        <Link to="home" spy={true} smooth={true} duration={500} href="#home">
+        <Link
+          className="animate-bounce"
+          to="home"
+          spy={true}
+          smooth={true}
+          duration={500}
+          href="#home"
+        >
           <svg
             className="h-8 w-8 text-red-500 hover:scale-150 duration-200"
             viewBox="0 0 24 24"
