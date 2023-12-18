@@ -9,7 +9,9 @@ const App = () => {
         <div className="text-white text-center max-w-2xl mx-auto md:flex md:items-center">
           <div className="md:w-4/6 md:pr-8">
             <h3 className="text-3xl">FullStack Developer</h3>
-            <h2 className="text-5xl pt-2 md:pt-5">Rubén García</h2>
+            <h2 className="animate-typing overflow-hidden whitespace-nowrap border-r-2 text-5xl font-bold pt-2 pl-5 md:pt-5">
+              Rubén García
+            </h2>
             <p className="pt-2 md:pt-3 text-lg">
               ¡Hola! 👋 Soy un entusiasta desarrollador web, recién graduado en
               Desarrollo de Aplicaciones Web.
