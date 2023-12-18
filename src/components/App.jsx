@@ -10,15 +10,15 @@ const App = () => {
           <div className="md:w-4/6 md:pr-8">
             <h3 className="text-3xl">FullStack Developer</h3>
             <h2 className="animate-typing overflow-hidden whitespace-nowrap border-r-2 text-5xl font-bold pt-2 pl-5 md:pt-5">
-              Rubén García
+              Rubén <span className="text-amber-300">García</span>
             </h2>
             <p className="pt-2 md:pt-3 text-lg">
-              ¡Hola! 👋 Soy un entusiasta desarrollador web, recién graduado en
+              ¡Hola! 👋 Soy un entusiasta desarrollador web, graduado en
               Desarrollo de Aplicaciones Web.
             </p>
             <p className="pt-2 md:pt-3 text-lg">
               Me considero un
-              <span className="text-amber-400 font-semibold text-xl">
+              <span className="text-amber-300 font-semibold text-xl">
                 {" "}
                 Desarrollador Junior
               </span>
@@ -49,7 +49,7 @@ const App = () => {
           <div className="md:w-1/3 flex items-center justify-center md:justify-end py-3">
             <img
               src={image}
-              className="rounded-full h-auto w-80 md:ml-10 mx-auto"
+              className="rounded-full h-auto w-50 md:ml-10 mx-auto"
               alt=""
             />
           </div>
