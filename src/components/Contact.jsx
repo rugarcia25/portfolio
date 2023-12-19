@@ -3,7 +3,10 @@ import { Link } from "react-scroll";
 
 const Contact = () => {
   return (
-    <section id="contact" className="w-full h-full bg-[#1F2937] py-10">
+    <section
+      id="contact"
+      className="w-full h-full bg-gradient-to-tr from-black via-black to-[#1F2937] py-10"
+    >
       <h2 className="text-white text-4xl w-full text-center mb-8">
         Contáctame
       </h2>
