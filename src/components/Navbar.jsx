@@ -2,10 +2,10 @@ import "../index.css";
 import pdf from "../images/CV_Ruben.pdf";
 import { Link } from "react-scroll";
 
-const Header = () => {
+const Navbar = () => {
   return (
     <div id="home">
-      <header className="z-[10] top-0 bg-gray-800 text-gray-300 p-3">
+      <nav className="bg-gray-800 text-gray-300 p-3">
         <ul className="flex items-center gap-10 md:gap-7 justify-center flex-wrap">
           <li className="flex items-center cursor-pointer hover:underline gap-2">
             <svg
@@ -102,9 +102,9 @@ const Header = () => {
             </a>
           </li>
         </ul>
-      </header>
+      </nav>
     </div>
   );
 };
 
-export default Header;
+export default Navbar;
