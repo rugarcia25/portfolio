@@ -7,14 +7,14 @@ const App = () => {
     <div className="bg-gradient-to-tl from-[#1F2937] via-black to-[#1F2937] font-mono relative overflow-hidden w-full h-screen">
       <div className="absolute inset-0 flex items-center justify-center h-full">
         <div className="text-white text-center max-w-2xl mx-auto md:flex md:items-center">
-          <div className="md:w-4/6 md:pr-8">
+          <div className="md:w-4/6 md:pr-10">
             <h3 className="text-3xl">FullStack Developer</h3>
             <h2 className="animate-typing overflow-hidden whitespace-nowrap border-r-2 text-5xl font-bold pt-2 pl-5 md:pt-5">
               Rubén <span className="text-amber-300">García</span>
             </h2>
             <p className="pt-2 md:pt-3 text-lg">
-              ¡Hola! 👋 Soy un entusiasta desarrollador web, graduado en
-              Desarrollo de Aplicaciones Web.
+              ¡Hola! 👋 Soy un entusiasta desarrollador, graduado en Desarrollo
+              de Aplicaciones Web.
             </p>
             <p className="pt-2 md:pt-3 text-lg">
               Me considero un
