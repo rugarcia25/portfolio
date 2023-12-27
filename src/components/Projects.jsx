@@ -21,7 +21,7 @@ const Projects = () => {
 
 const ProjectCard = ({ image, title, description, liveLink, githubLink }) => {
   return (
-    <div className="bg-[#1F2937] rounded-md px-6 py-8 flex flex-col items-center opacity-50 transition duration-500 ease-in-out hover:opacity-100 hover:scale-110">
+    <div className="bg-[#1F2937] rounded-md px-6 py-8 flex flex-col items-center opacity-50 transition duration-500 ease-in-out hover:opacity-100 hover:scale-105">
       <img
         className="w-full md:max-w-[300px] h-auto m-auto rounded-lg cursor-pointer"
         src={image}
