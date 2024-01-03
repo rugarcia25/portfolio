@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   return (
     <div id="home">
-      <nav className="bg-gray-800 text-gray-300 p-3">
+      <nav className="bg-gradient-to-tr from-[#1F2937] via-black to-[#1F2937] text-gray-300 p-3">
         <ul className="flex items-center gap-10 md:gap-7 justify-center flex-wrap">
           <li className="flex items-center cursor-pointer hover:underline gap-2">
             <svg

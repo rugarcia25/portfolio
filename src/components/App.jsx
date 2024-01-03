@@ -6,24 +6,22 @@ const App = () => {
   return (
     <div className="bg-gradient-to-tl from-[#1F2937] via-black to-[#1F2937] font-mono relative overflow-hidden w-full h-screen">
       <div className="absolute inset-0 flex items-center justify-center h-full">
-        <div className="text-white text-center max-w-2xl mx-auto md:flex md:items-center">
+        <div className="text-white text-center max-w-3xl mx-auto md:flex md:items-center">
           <div className="md:w-4/6 md:pr-10">
             <h3 className="text-3xl">FullStack Developer</h3>
             <h2 className="animate-typing overflow-hidden whitespace-nowrap border-r-2 text-5xl font-bold pt-2 pl-5 md:pt-5">
-              Rubén <span className="text-amber-300">García</span>
+              <span className="text-amber-300">Rubén García</span>
             </h2>
             <p className="pt-2 md:pt-3 text-lg">
-              ¡Hola! 👋 Soy un entusiasta desarrollador, graduado en Desarrollo
-              de Aplicaciones Web.
+              ¡Hola! 👋 Soy desarrollador de aplicaciones Web.
             </p>
             <p className="pt-2 md:pt-3 text-lg">
-              Me considero un
+              Me considero un desarrollador
               <span className="text-amber-300 font-semibold text-xl">
                 {" "}
-                Desarrollador Junior
+                Junior
               </span>
-              , explorando el fascinante mundo de la programación y aprendiendo
-              cada día.
+              , explorando el fascinante mundo de la programación cada día.
             </p>
             <div className="text-4xl flex justify-center pt-3 gap-5 md:flex md:items-center red-500">
               <a
@@ -49,7 +47,7 @@ const App = () => {
           <div className="md:w-1/2 flex items-center justify-center md:justify-end py-3">
             <img
               src={image}
-              className="rounded-full h-auto w-50 md:ml-10 mx-auto"
+              className="rounded-full h-auto w-60 md:ml-10 mx-auto"
               alt=""
             />
           </div>
