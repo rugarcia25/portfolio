@@ -2,6 +2,7 @@
 import imageGoodBoy from "../images/goodboy.webp";
 import ageCalculator from "../images/ageCalculator.webp";
 import newsletter from "../images/newsletter.webp";
+import tictactoe from "../images/tic-tac-toe.webp";
 
 const Projects = () => {
   return (
@@ -67,6 +68,13 @@ const projects = [
     description: "Aplicación para la adopción de animales",
     image: imageGoodBoy,
     githubLink: "https://github.com/rugarcia25/TFG-GoodBoy",
+  },
+  {
+    title: "Tres en raya",
+    description: "Disfruta del mítico juego 3 en raya",
+    image: tictactoe,
+    liveLink: "https://juega-al-tres-en-raya.netlify.app/",
+    githubLink: "https://github.com/rugarcia25/tic-tac-toe",
   },
   {
     title: "Age Calculator",
