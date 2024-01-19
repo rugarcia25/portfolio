@@ -11,8 +11,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Navbar />
     <App />
-    <Skills />
     <Projects />
+    <Skills />
     <Contact />
   </React.StrictMode>
 );

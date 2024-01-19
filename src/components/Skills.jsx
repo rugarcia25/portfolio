@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="w-full h-full bg-gradient-to-tr from-[#1F2937] via-black to-[#1F2937] py-10"
+      className="w-full h-full bg-gradient-to-tl from-[#1F2937] via-black to-[#1F2937] py-10"
     >
       <h2 className="text-white text-4xl w-full text-center mb-8">
         Tecnologías

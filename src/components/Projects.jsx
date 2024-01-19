@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <section
       id="proyectos"
-      className="w-full h-full bg-gradient-to-tl from-[#1F2937] via-black to-[#1F2937] py-10"
+      className="w-full h-full bg-gradient-to-tr from-[#1F2937] via-black to-[#1F2937] py-10"
     >
       <h2 className="text-white text-4xl w-full text-center mb-8">Proyectos</h2>
       <div className="grid gap-10 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 py-5 mx-auto max-w-6xl">
