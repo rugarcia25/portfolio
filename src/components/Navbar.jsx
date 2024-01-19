@@ -10,6 +10,30 @@ const Navbar = () => {
           <li className="flex items-center cursor-pointer hover:underline gap-2">
             <svg
               className="h-8 w-8 text-red-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+              />
+            </svg>
+            <Link
+              to="proyectos"
+              spy={true}
+              smooth={true}
+              duration={500}
+              href="#proyectos"
+            >
+              Proyectos
+            </Link>
+          </li>
+          <li className="flex items-center cursor-pointer hover:underline gap-2">
+            <svg
+              className="h-8 w-8 text-red-500"
               width="24"
               height="24"
               viewBox="0 0 24 24"
@@ -33,30 +57,6 @@ const Navbar = () => {
               href="#skills"
             >
               Tecnologías
-            </Link>
-          </li>
-          <li className="flex items-center cursor-pointer hover:underline gap-2">
-            <svg
-              className="h-8 w-8 text-red-500"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-              />
-            </svg>
-            <Link
-              to="proyectos"
-              spy={true}
-              smooth={true}
-              duration={500}
-              href="#proyectos"
-            >
-              Proyectos
             </Link>
           </li>
           <li className="flex items-center cursor-pointer hover:underline gap-2">
